@@ -1,5 +1,50 @@
 body {
-  font-family: sans-serif;
-  padding: 0 20px;
-  text-align: center;
+    font-family: ;
+    padding: 0 20px;
+    text-align: center;
+}
+
+:root {
+    --acent-color: #6b63ff;
+}
+
+button {
+    padding: 20px;
+    border: 1px solid var(--acent-color);
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.main-button {
+    background-color: var(--acent-color);
+    color: white;
+
+
+    box-shadow: 10px 5px 10px rgb(183, 182, 182);
+}
+
+.second-button {
+    background-color: white;
+    color: var(--acent-color);
+}
+
+span {
+    display: flex;
+    justify-content: center;
+
+    padding: 30px;
+
+}
+
+h1 {
+    font-size: 54px;
+}
+
+h2 {
+    font-size: 34px;
+
 }
