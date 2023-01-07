@@ -26,6 +26,7 @@ h1 {
 h2 {
     font-size: 48px;
 
+
 }
 
 h3 {
@@ -37,7 +38,7 @@ h3 {
 h1,
 h2,
 h3 {
-    margin: 0;
+    margin: 10px;
 }
 
 button {
@@ -53,12 +54,17 @@ button:hover {
 
 p {
     background-color: var(--secondary-color);
-    width: 25%;
+
     padding: 20px;
     border-radius: 4px;
     font-size: 18px;
     line-height: 1.5;
 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .main-button {
@@ -96,4 +102,14 @@ p {
 
 .email-link:hover {
     text-decoration: underline;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.width-p {
+    width: 25%;
 }
