@@ -53,7 +53,7 @@ button:hover {
 }
 
 p {
-    background-color: var(--secondary-color);
+
 
     padding: 20px;
     border-radius: 4px;
@@ -116,4 +116,8 @@ img {
 
 .img-shadow {
     box-shadow: var(--box-shadow);
+}
+
+.height-img {
+    height: 800px;
 }
