@@ -113,3 +113,7 @@ img {
 .width-p {
     width: 25%;
 }
+
+.img-shadow {
+    box-shadow: var(--box-shadow);
+}
