@@ -118,3 +118,22 @@ img {
 .height-img {
     height: 800px;
 }
+
+@media (max-width: 576px) {
+    .responsive {
+        display: none;
+    }
+
+    h1 {
+        font-size: 64px;
+    }
+
+    h2 {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .email-link {
+        font-size: 22px;
+    }
+}
