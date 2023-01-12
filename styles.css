@@ -126,14 +126,26 @@ img {
 
     h1 {
         font-size: 64px;
+
     }
 
     h2 {
         font-size: 34px;
         text-align: center;
+        margin: 0;
+    }
+
+    p {
+        text-align: center;
     }
 
     .email-link {
         font-size: 22px;
+    }
+
+    .project-link {
+        display: block;
+        text-align: center;
+        margin: 0 20px;
     }
 }
