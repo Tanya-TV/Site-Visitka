@@ -114,9 +114,6 @@ img {
     width: 25%;
 }
 
-.img-shadow {
-    box-shadow: var(--box-shadow);
-}
 
 .height-img {
     height: 800px;
