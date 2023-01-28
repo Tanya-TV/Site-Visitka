@@ -15,7 +15,7 @@ span {
     display: flex;
     justify-content: center;
 
-    padding: 30px;
+
 
 }
 
@@ -45,7 +45,7 @@ button {
     padding: 20px;
     border: 1px solid var(--primary-color);
     border-radius: 5px;
-    margin: 40px 20px;
+    /* margin: 40px 20px;*/
 }
 
 button:hover {
